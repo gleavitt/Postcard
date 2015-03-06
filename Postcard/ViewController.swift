@@ -35,6 +35,7 @@ class ViewController: UIViewController
         //revealing the name label
         nameLabel.hidden = false
         nameLabel.text = enterNameTextField.text
+        nameLabel.textColor = UIColor.blueColor()
         
         //revealing the message label area
         messageLabel.hidden = false
